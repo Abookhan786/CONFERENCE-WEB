@@ -1,4 +1,6 @@
 import Countdown from "./components/Countdown";
+import Payment from "./component/payment";
+
 
 export default function Home() {
   return (
@@ -70,6 +72,9 @@ export default function Home() {
           </div>
         </div>
       </main>
+       <Payment />
     </>
-  );
+
+
+  )
 }
